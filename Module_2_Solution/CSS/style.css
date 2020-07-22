@@ -23,6 +23,8 @@
 	}
 	#item1 {
   			background-color: pink;
+  			top: 0px;
+  			right: 0px;
 		} 
 		#item2 {
   			background-color: red;
