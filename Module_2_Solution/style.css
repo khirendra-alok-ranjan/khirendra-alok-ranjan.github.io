@@ -144,13 +144,13 @@
 		.col-md-11{
 			width: 91.66%;
 		}
-		.col-md-12{
+		.col-lw-12{
 			width: 100%;
 		}
-		#su{
+		/*#su{
 			width: 100%;
 			float:100%;
-		}
+		}*/
 	}
 	@media(max-width: 767px){
 
