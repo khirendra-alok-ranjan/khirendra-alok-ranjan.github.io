@@ -1,13 +1,15 @@
 
-	<style type="text/css">
 	*{
 		box-sizing: border-box;
-		margin: 10px;
-		padding: 10px;
+		margin: 0px;
+		padding: 0px;
 	}
+	body{
+  		font-family: 'Lato', sans-serif;  
+		}
 	
 	h1{
-		 margin-bottom: 30px;
+		 margin-bottom: 10px;
 		text-align: center;
 	}
 	h2{
@@ -18,11 +20,11 @@
   		right: 0px;
   		background: green; 
   		padding: 6px 90px;
-  		border: 2px solid black;
+  		border: 1px solid black;
   		
 
 	}
-	#item1 {
+		#item1 {
   			background-color: pink;
 		} 
 		#item2 {
@@ -37,20 +39,20 @@
 	p{
 		margin-top: 40px;
 		text-align: justify;
-		font-size: 90%;
+		
 	}
 	.box{
 		position: relative;
   		top: 0;
   		background-color: gray;
-  		margin: 20px;
-  		padding: 30px;
-  		border: 3px solid black;
+  		margin: 10px;
+  		padding: 20px;
+  		border: 1px solid black;
 	}
 	.container{
  		position: relative;
- 		top:60px;
- 		margin: 15px; 
+ 		top:40px;
+ 		margin: 10px; 
 	}
 	.row{
  		 width: 100%;
@@ -111,45 +113,14 @@
 			float: left;
 			
 		}
-		.col-md-1{
-			width: 8.33%;
-		}
-		.col-md-2{
-			width: 16.66%;
-		}
-		.col-md-3{
-			width: 25%;
-		}
+		
 		.col-md-4{
-			width: 33%;
-		}
-		.col-md-5{
-			width: 41.66%;
-		}
-		.col-md-6{
 			width: 50%;
 		}
-		.col-md-7{
-			width: 58.33%;
-		}
-		.col-md-8{
-			width: 66.66%;
-		}
-		.col-md-9{
-			width: 74.99%;
-		}
-		.col-md-10{
-			width: 83.33%;
-		}
-		.col-md-11{
-			width: 91.66%;
-		}
-		.col-md-12{
-			width: 100%;
-		}
+		
 		#su{
 			width: 100%;
-			float:100%;
+			float:left;
 		}
 	}
 	@media(max-width: 767px){
@@ -159,42 +130,9 @@
 		.col-lw-9, .col-lw-10, .col-lw-11, .col-lw-12{
 			float: left;
 		}
-		.col-lw-1{
-			width: 8.33%;
-		}
-		.col-lw-2{
-			width: 16.66%;
-		}
-		.col-lw-3{
-			width: 25%;
-		}
-		.col-lw-4{
-			width: 33%;
-		}
-		.col-lw-5{
-			width: 41.66%;
-		}
-		.col-lw-6{
-			width: 50%;
-		}
-		.col-lw-7{
-			width: 58.33%;
-		}
-		.col-lw-8{
-			width: 66.66%;
-		}
-		.col-lw-9{
-			width: 74.99%;
-		}
-		.col-lw-10{
-			width: 83.33%;
-		}
-		.col-lw-11{
-			width: 91.66%;
-		}
+		
 		.col-lw-12{
 			width: 100%;
 		}
 	}
 	
-</style>
