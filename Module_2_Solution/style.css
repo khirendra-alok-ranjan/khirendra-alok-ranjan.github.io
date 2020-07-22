@@ -1,8 +1,8 @@
 
 	*{
 		box-sizing: border-box;
-		margin: 10px;
-		padding: 10px;
+		margin: 0px;
+		padding: 0px;
 	}
 	
 	h1{
@@ -127,6 +127,7 @@
 		}
 		.col-md-6{
 			width: 50%;
+			float: left;
 		}
 		.col-md-7{
 			width: 58.33%;
@@ -143,13 +144,13 @@
 		.col-md-11{
 			width: 91.66%;
 		}
-		.col-md-12{
+		.col-lw-12{
 			width: 100%;
 		}
-		#su{
+		/*#su{
 			width: 100%;
 			float:100%;
-		}
+		}*/
 	}
 	@media(max-width: 767px){
 
@@ -193,6 +194,7 @@
 		}
 		.col-lw-12{
 			width: 100%;
+			float:left;
 		}
 	}
 	
