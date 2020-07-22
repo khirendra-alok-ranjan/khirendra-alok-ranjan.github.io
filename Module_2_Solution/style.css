@@ -108,7 +108,7 @@
 		.col-md-5, .col-md-6, .col-md-7, .col-md-8,
 		.col-md-9, .col-md-10, .col-md-11, 
 		.col-md-12{
-			float: left;
+			/*float: left;*/
 			
 		}
 		/*.col-md-1{
@@ -149,7 +149,7 @@
 		}*/
 		#su{
 			width: 100%;
-			float:100%;
+			float:left;
 		}
 	}
 	@media(max-width: 767px){
